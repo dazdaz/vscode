@@ -10,13 +10,14 @@ Extensions:
   Ansible
   Azure Account
   Azure Dev Spaces
-  Azure Terraform
+  Azure Terraform - Edit the system environment vairables - Add c:\apps into PATH - run "terraform init" from Azure CloudShell
   Azure CLI Tools
   Go
   Kubernetes
   Kubernetes Support
   Python
   sftp
+  Terraform Azure Autocomplete
   Visual Studio Team Services
 ```
 
