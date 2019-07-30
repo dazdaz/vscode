@@ -1,14 +1,7 @@
-## Links
-* https://nodejs.org/en/ Required for Cloud Shell
-* https://marketplace.visualstudio.com/ Useful to browse extensions, but install inside VS Code
-* https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack Node Pack for Azure
-* https://code.visualstudio.com/
-
-
 Extensions:
 ```
   Ansible
-  Azure Account
+  Azure Account - Azure Shell access
   Azure Dev Spaces
   Azure Terraform - Edit the system environment vairables - Add c:\apps into PATH - run "terraform init" from Azure CloudShell
   Azure CLI Tools
@@ -23,8 +16,8 @@ Extensions:
 
 ## 
 ```
-Command Palette Ctrl+Shift+P
-Terminal        Ctrl `
+Command Palette  Ctrl+Shift+P or on MacOS (⇧⌘P) and then >
+Terminal         Ctrl `
 
 Commands : "Cloud Shell"
 ```
@@ -45,3 +38,10 @@ git status
 git commit -am "Added date to Dockerfile"
 git push origin master
 ```
+
+## Links
+* https://nodejs.org/en/ Required for Cloud Shell
+* https://marketplace.visualstudio.com/ Useful to browse extensions, but install inside VS Code
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack Node Pack for Azure
+* https://code.visualstudio.com/
+* https://medium.com/codingthesmartway-com-blog/getting-started-with-visual-studio-code-5f56eef810e1
