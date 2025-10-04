@@ -1,4 +1,11 @@
 Extensions:
+```text
+kilocode - obtain API key from https://app.kilocode.ai/
+python
+```
+
+
+Extensions:
 ```
   Ansible
   Azure Account - Azure Shell access
