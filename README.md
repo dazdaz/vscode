@@ -1,9 +1,22 @@
-Extensions:
+## Extensions to Install:
 ```text
 kilocode - obtain API key from https://app.kilocode.ai/
 python
 ```
 
+## KiloCode Providers
+```
+API Provider - openrouter
+OpenRouter API Key - x
+Model - anthroic/claude-sonnet-4.5 or x-ai/grok-code-fast-1
+
+Experimental
+Enable Fast Apply
+Enable concurrent file edits
+Enable AI image generation
+- API Provider - OpenRouter
+- OpenRouter API Key
+```
 
 Extensions:
 ```
