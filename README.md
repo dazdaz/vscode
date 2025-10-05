@@ -21,22 +21,6 @@ Autocomplete
 - Use custom provider / Kilocode / openrouter or zai
 ```
 
-Extensions:
-```
-  Ansible
-  Azure Account - Azure Shell access
-  Azure Dev Spaces
-  Azure Terraform - Edit the system environment vairables - Add c:\apps into PATH - run "terraform init" from Azure CloudShell
-  Azure CLI Tools
-  Go
-  Kubernetes
-  Kubernetes Support
-  Python
-  sftp
-  Terraform Azure Autocomplete
-  Visual Studio Team Services
-```
-
 ## 
 ```
 Command Palette  Ctrl+Shift+P or on MacOS (⇧⌘P) and then >
@@ -68,3 +52,20 @@ git push origin master
 * https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack Node Pack for Azure
 * https://code.visualstudio.com/
 * https://medium.com/codingthesmartway-com-blog/getting-started-with-visual-studio-code-5f56eef810e1
+
+
+Older Extensions Not Used in Years - To be re-reviewed:
+```
+  Ansible
+  Azure Account - Azure Shell access
+  Azure Dev Spaces
+  Azure Terraform - Edit the system environment vairables - Add c:\apps into PATH - run "terraform init" from Azure CloudShell
+  Azure CLI Tools
+  Go
+  Kubernetes
+  Kubernetes Support
+  Python
+  sftp
+  Terraform Azure Autocomplete
+  Visual Studio Team Services
+```
