@@ -21,6 +21,34 @@ Autocomplete
 - Use custom provider / Kilocode / openrouter or zai
 ```
 
+## Kilo Code Provider - GCP Vertex Setup
+* Google Cloud Key File Path: /Users/username/kilo-code-vertex-ai-key.json
+```
+export GCP_PROJECT="YOUR-PROJECT-ID"
+
+# Enable the Vertex AI API for your project
+gcloud services enable aiplatform.googleapis.com --project=$GCP_PROJECT
+
+# Create the service account
+gcloud iam service-accounts create kilo-code-vertex-ai \
+  --display-name="Kilo Code Vertex AI" \
+  --description="Service account for Kilo Code Vertex AI integration" \
+  --project=$GCP_PROJECT
+
+# Define the service account email using the variable
+SA_EMAIL="kilo-code-vertex-ai@$GCP_PROJECT.iam.gserviceaccount.com"
+
+# Assign the "Vertex AI User" role to the service account
+gcloud projects add-iam-policy-binding $GCP_PROJECT \
+  --member="serviceAccount:$SA_EMAIL" \
+  --role="roles/aiplatform.user"
+
+# Generate and download the JSON key file to your home directory
+gcloud iam service-accounts keys create ~/kilo-code-vertex-ai-key.json \
+  --iam-account=$SA_EMAIL \
+  --project=$GCP_PROJECT
+```
+
 ## 
 ```
 Command Palette  Ctrl+Shift+P or on MacOS (⇧⌘P) and then >
