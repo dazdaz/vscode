@@ -1,3 +1,19 @@
+## VSCode or VSCodium
+* VSCode (Visual Studio Code): A highly popular, open-source code editor developed by Microsoft. It supports a wide range of programming languages, has a rich extension ecosystem, and includes features like debugging, embedded Git control, and IntelliSense. https://code.visualstudio.com/
+```bash
+brew install --cask visual-studio-code
+```
+
+* VSCodium: An open-source, community-driven fork of VSCode that removes Microsoft’s proprietary elements and telemetry. It aims to provide a fully open-source alternative while maintaining most of VSCode’s functionality. VSX Registry https://open-vsx.org/ https://vscodium.com/
+```bash
+brew install --cask vscodium
+```
+
+## VSCode - Disable these
+* Telemetry › Edit Stats : Disable
+* Telemetry › Feedback : Disable
+
+
 ## Extensions to Install:
 ```text
 kilocode - obtain API key from https://app.kilocode.ai/
