@@ -8,8 +8,7 @@ python
 ```
 API Provider - openrouter
 OpenRouter API Key - x
-Model - anthroic/claude-sonnet-4.5 or x-ai/grok-code-fast-1
-
+Model - anthroic/claude-sonnet-4.5 or x-ai/grok-code-fast-1 or z-ai/glm-4.6
 Experimental
 Enable Fast Apply
 Enable concurrent file edits
