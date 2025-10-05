@@ -4,7 +4,7 @@ kilocode - obtain API key from https://app.kilocode.ai/
 python
 ```
 
-## KiloCode Providers
+## KiloCode Configuration
 ```
 API Provider - openrouter
 OpenRouter API Key - x
@@ -15,6 +15,10 @@ Enable concurrent file edits
 Enable AI image generation
 - API Provider - OpenRouter
 - OpenRouter API Key
+
+Autocomplete
+- Pause to Complete
+- Use custom provider / Kilocode / openrouter or zai
 ```
 
 Extensions:
