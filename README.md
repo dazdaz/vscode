@@ -16,8 +16,9 @@ brew install --cask vscodium
 
 ## Extensions to Install:
 ```text
-kilocode - obtain API key from https://app.kilocode.ai/
-python
+KiloCode - obtain API key from https://app.kilocode.ai/
+Mermaid Editor
+Python
 ```
 
 ## KiloCode Configuration
@@ -65,7 +66,7 @@ gcloud iam service-accounts keys create ~/kilo-code-vertex-ai-key.json \
   --project=$GCP_PROJECT
 ```
 
-## 
+## VSCode Shortcuts
 ```
 Command Palette  Ctrl+Shift+P or on MacOS (⇧⌘P) and then >
 Terminal         Ctrl `
