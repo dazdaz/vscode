@@ -66,6 +66,15 @@ gcloud iam service-accounts keys create ~/kilo-code-vertex-ai-key.json \
   --project=$GCP_PROJECT
 ```
 
+## Using Kilo Code
+```
+For debugging and architecting
+- Select GPT-5 Codex
+
+For coding
+- Select GLM-4.6
+```
+
 ## VSCode Shortcuts
 ```
 Command Palette  Ctrl+Shift+P or on MacOS (⇧⌘P) and then >
