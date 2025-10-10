@@ -13,6 +13,10 @@ brew install --cask vscodium
 * Telemetry › Edit Stats : Disable
 * Telemetry › Feedback : Disable
 
+## VSCodium Configuration
+```
+files.dialog.defaultPath = /Users/username/src
+```
 
 ## Extensions to Install:
 ```text
